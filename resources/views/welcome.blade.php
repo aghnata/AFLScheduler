@@ -80,7 +80,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Atqiya's Fun Learning (AFL)
+                    Atqiya's Fun Learning New (AFL)
                 </div>
 
                 <div class="links">
