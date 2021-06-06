@@ -10,6 +10,7 @@ use App\Aflee;
 use App\Grade;
 use App\TransportFee;
 use Carbon\Carbon;
+use DB;
 
 
 
@@ -29,10 +30,16 @@ class ScheduleController extends Controller
         $afleeIdSort = null;
         $sortedAflerName = null;
         $sortedAfleeName = null;
+
+        // $startdatex = $date->endOfMonth();
+        // $enddatex = $date->endOfMonth();
        
         if ($userRoleId === 1 || $userRoleId === 2) {
-            $schedules = Schedule::all();
-            // $schedules = Schedule::orderBy('date', 'asc')->whereBetween('date', ['2019-10-07', '2019-10-13'])->get();
+            // $schedules = Schedule::all();
+            // $schedules = DB::table('schedules')->get();
+            $dateStart = new Carbon('first day of this month');
+            $dateEnd = Carbon::now()->endOfMonth();
+            $schedules = Schedule::orderBy('date', 'asc')->whereBetween('date', [$dateStart, $dateEnd])->get();
             $isAdmin = true;
             $isAfler = true;
             $isAflee = true;
