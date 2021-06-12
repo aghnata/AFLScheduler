@@ -71,7 +71,11 @@
           </div>
         @endif
 
-        @yield('content')
+        <div class="card">
+          <div class="card-body">
+            @yield('content')
+          </div>
+        </div>
       </div>
       <!-- /.content-wrapper -->
 
@@ -106,6 +110,6 @@
 	</script>
   <!-- AdminLTE App -->
   <script src='{{ url('dist/js/adminlte.js')}}'></script>
-  @yield('script')
+  @stack('script')
   </body>
 </html>

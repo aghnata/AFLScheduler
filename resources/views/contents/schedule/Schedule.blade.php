@@ -1,8 +1,8 @@
 @extends('dashboard')
 
-
 @section('content')
     <a href="{{url('/listaflee')}}">Cek Siswa (Aflee) yg sudah daftar</a>
+    
     @if ($isAdmin == true)
         {{-- Form filter by Afler --}}
         <form autocomplete="off" action="{{url('/Schedule/SortingSchedule')}}" method="POST">
@@ -313,7 +313,7 @@
     @endif
 @endsection
 
-@section('script')
+@push('script')
     {{-- JQUERY UNTUK MILIH PENGAJAR DENG DATALIST --}}
     <script src="{{ url('/js/Schedule/setId.js')}}" type="text/javascript"></script>
 
@@ -355,4 +355,4 @@
         }
     </script>
     
-@endsection
+@endpush
