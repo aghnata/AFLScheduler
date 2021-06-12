@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Atqiya's FL</title>
-        <link rel="icon" href="{!! asset('dist/img/AFLlogo.png') !!}"/>
+        <link rel="icon" href="{!! asset('dist/img/large_logo.png') !!}"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">

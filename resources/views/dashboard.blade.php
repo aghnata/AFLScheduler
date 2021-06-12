@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Atqiya's Fun Learning (AFL)</title>
-  <link rel="icon" href="{!! asset('dist/img/AFLlogo.png') !!}"/>
+  <link rel="icon" href="{!! asset('dist/img/large_logo.png') !!}"/>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Ionicons -->

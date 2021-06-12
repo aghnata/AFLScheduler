@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Atqiya's FL</title>
-<link rel="icon" href="{!! asset('dist/img/AFLlogo.png') !!}"/>
+<link rel="icon" href="{!! asset('dist/img/large_logo.png') !!}"/>
 {{-- <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16"> --}}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="iLand Multipurpose Landing Page Template">
