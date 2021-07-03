@@ -46,7 +46,7 @@
   <div class="main app form" id="main"><!-- Main Section-->
     <div class="hero-section">
       <div class="container nopadding">
-        <div class="col-md-5"> <img class="img-responsive wow fadeInUp" data-wow-delay="0.1s" src="images/app-signup.png" alt="App" /> </div>
+        <div class="col-md-5"> <img class="img-responsive wow fadeInUp" data-wow-delay="0.1s" src="{!! asset('dist/img/large_logo.png') !!}" alt="App" /> </div>
         <div class="col-md-7">
           <div class="hero-content">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s">Atqiya's Fun Learning</h1>
