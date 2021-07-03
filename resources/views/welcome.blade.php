@@ -79,20 +79,17 @@
             @endif
 
             <div class="content">
-                {{-- <div class="title m-b-md">
-                    Atqiya's Fun Learning (AFL)
-                </div> --}}
                 <div class="title m-b-md">
-                    Mohon maaf web AFL sedang dalam maintenance, in syaa Alloh segera kami aktifkan kembali setelah selesai maintenance
+                    Atqiya's Fun Learning (AFL)
                 </div>
 
-                {{-- <div class="links">
+                <div class="links">
                     <a href="http://alfedukasi.blogspot.com/">Apa itu AFL??</a>
                     <a href="http://alfedukasi.blogspot.com/p/biaya.html">Biaya Les Privat</a>
                     <a href="http://alfedukasi.blogspot.com/p/pendaftaran.html">Pendaftaran</a>
                     <a href="http://alfedukasi.blogspot.com/p/e-books-afl.html">Ebooks AFL</a>
                     <a href="http://alfedukasi.blogspot.com/p/p.html">DISKON</a>
-                </div> --}}
+                </div>
             </div>
         </div>
     </body>
